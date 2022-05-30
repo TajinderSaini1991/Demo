@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo Test Automation" verbose="2" thread-count="3" parallel="tests">
+
+	<listeners>
+			<listener class-name="com.qa.hubspot.testlisteners.ExtentReportListener" />
+	</listeners>
+
+	
+	<test name="LoginPage Testing- chrome">
+	  <parameter name="browser" value="Chrome"></parameter> 
+		<classes>
+			<class name="com.qa.hubspot.tests.LoginPageTest" />	
+		   <class name="com.qa.hubspot.tests.HomePageTest" />	
+			<class name="com.qa.hubspot.tests.ContactsPageTest" />	
+		</classes>
+	</test>
+	 
+
+
+<!-- 	 <test name="HubSpot LoginPage Testing-Firefox">
+	 <parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.qa.hubspot.tests.LoginPageTest" />
+			
+		</classes>
+
+
+	</test> -->
+	
+<!-- 	 <test name="HubSpot HomePage Testing-Chrome">
+	   
+		<classes>
+			<class name="com.qa.hubspot.tests.HomePageTest" />
+
+		</classes>
+	</test>    -->
+	<!--  <test name="HubSpot HomePage Testing-Firefox">
+	   <classes>
+			<class name="com.qa.hubspot.tests.HomePageTest" />
+
+		</classes>
+	</test>  -->
+
+  <!-- <test name="HubSpot Feature Testing-ContactsPage">
+		<classes>
+			<class name="com.qa.hubspot.tests.ContactsPageTest" />
+
+		</classes>
+	</test> 
+ -->
+
+</suite>

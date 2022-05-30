@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="47.482" tests="12" errors="0" skipped="3" failures="9">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/SimTaj/workspace/worspceselenium/May2020Framework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\SimTaj\workspace\worspceselenium\May2020Framework"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SimTaj\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\SimTaj\bin;C:\Users\SimTaj\workspace\Git\mingw64\bin;C:\Users\SimTaj\workspace\Git\usr\local\bin;C:\Users\SimTaj\workspace\Git\usr\bin;C:\Users\SimTaj\workspace\Git\usr\bin;C:\Users\SimTaj\workspace\Git\mingw64\bin;C:\Users\SimTaj\workspace\Git\usr\bin;C:\Users\SimTaj\bin;C:\Users\SimTaj\AppData\Local\Android\Sdk\tools\bin;C:\Users\SimTaj\AppData\Local\Android\Sdk\platform-tools;C:\Users\SimTaj\AppData\Local\Android\Sdk\tools;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Users\SimTaj\workspace\Git\cmd;C:\Users\SimTaj\workspace\Git\usr\bin;C:\Program Files\nodejs;C:\Users\SimTaj\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\SimTaj\AppData\Local\Programs\Python\Python38-32;C:\Users\SimTaj\scoop\shims;C:\Users\SimTaj\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\bin;C:\Users\SimTaj\workspace\Git\usr\bin;C:\Program Files\Docker Toolbox;C:\Program Files\Docker Toolbox;C:\Program Files\Docker Toolbox;C:\Users\SimTaj\AppData\Roaming\npm;C:\Users\SimTaj\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SimTaj\workspace\Git\usr\bin\vendor_perl;C:\Users\SimTaj\workspace\Git\usr\bin\core_perl;."/>
+    <property name="maven.conf" value="C:/apache-maven-3.6.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="user.home" value="C:\Users\SimTaj"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="SimTaj"/>
+    <property name="java.class.path" value="C:/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="verifySignUpLinkTest" classname="com.qa.hubspot.tests.LoginPageTest" time="10.686">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.qa.hubspot.tests.LoginPageTest.verifySignUpLinkTest(LoginPageTest.java:29)
+</failure>
+    <system-out><![CDATA[...
+... TestNG 6.14.3 by Cédric Beust (cedric@beust.com)
+...
+
+I am in onStart method HubSpot LoginPage Testing
+I am in onStart method HubSpot LoginPage Testing-Firefox
+Tesults disabled - target not provided.
+Test Suite started!
+I am in onStart method HubSpot LoginPage Testing-Firefox
+Tesults disabled - target not provided.
+Tesults disabled - target not provided.
+Test Suite started!
+I am in onStart method HubSpot HomePage Testing-Chrome
+Test Suite started!
+I am in onStart method HubSpot LoginPage Testing
+Running on environment  ---> null
+Running on environment  ---> null
+Running on environment  ---> null
+browser name is : chrome
+browser name is : chrome
+browser name is : chrome
+I am in onTestStart method verifySignUpLinkTest start
+verifySignUpLinkTest started!
+I am in onTestStart method verifySignUpLinkTest start
+I am in onTestStart method verifySignUpLinkTest start
+verifySignUpLinkTest started!
+I am in onTestStart method verifySignUpLinkTest start
+login to the app with simr.saini7@gmail.com:!Saini006
+Element not found By.linkText: Sign up
+I am in onTestFailure method verifySignUpLinkTest failed
+Screenshot captured for test case:verifySignUpLinkTest
+verifySignUpLinkTest failed!
+I am in onTestFailure method verifySignUpLinkTest failed
+Screenshot captured for test case:verifySignUpLinkTest
+Element not found By.linkText: Sign up
+I am in onTestFailure method verifySignUpLinkTest failed
+Screenshot captured for test case:verifySignUpLinkTest
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 31896
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 2191
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 44803
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+Sep 02, 2021 8:40:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Sep 02, 2021 8:40:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Sep 02, 2021 8:40:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySignUpLinkTest" classname="com.qa.hubspot.tests.LoginPageTest" time="0.961">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.qa.hubspot.tests.LoginPageTest.verifySignUpLinkTest(LoginPageTest.java:29)
+</failure>
+    <system-out><![CDATA[I am in onTestFailure method verifySignUpLinkTest failed
+Screenshot captured for test case:verifySignUpLinkTest
+verifyHomePageHeaderTest skipped!
+]]></system-out>
+  </testcase>
+  <testcase name="homePageSetup" classname="com.qa.hubspot.tests.HomePageTest" time="0.683">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.qa.hubspot.tests.HomePageTest.homePageSetup(HomePageTest.java:24)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method verifyLoginPageTitleTest start
+verifyLoginPageTitleTest started!
+I am in onTestStart method verifyLoginPageTitleTest start
+verifySignUpLinkTest failed!
+Element not found By.id: username
+]]></system-out>
+  </testcase>
+  <testcase name="homePageSetup" classname="com.qa.hubspot.tests.HomePageTest" time="3.787">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.qa.hubspot.tests.HomePageTest.homePageSetup(HomePageTest.java:24)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method loginTest start
+loginTest started!
+I am in onTestStart method loginTest start
+login to the app with simr.saini7@gmail.com:!Saini006
+Element not found By.id: username
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.hubspot.tests.HomePageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[I am in onTestStart method verifyLoginPageTitleTest start
+verifyLoginPageTitleTest started!
+I am in onTestStart method verifyLoginPageTitleTest start
+verifyHomePageHeaderTest failed!
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.hubspot.tests.HomePageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[verifyHomePageHeaderTest skipped!
+verifyHomePageHeaderTest failed!
+]]></system-out>
+  </testcase>
+  <testcase name="verifyLoginPageTitleTest" classname="com.qa.hubspot.tests.LoginPageTest" time="9.73">
+    <failure message="Expected condition failed: waiting for title to be &quot;HubSpot Login&quot;. Current title: &quot;Checking browser&quot; (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-FHVIN2VS&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SimTaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e16c8586a1699b0c951cc1d7b12291d2" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to be "HubSpot Login". Current title: "Checking browser" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FHVIN2VS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SimTaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e16c8586a1699b0c951cc1d7b12291d2
+	at com.qa.hubspot.tests.LoginPageTest.verifyLoginPageTitleTest(LoginPageTest.java:37)
+</failure>
+    <system-out><![CDATA[Test Suite is ending!
+I am in onFinish method HubSpot HomePage Testing-Chrome
+Tesults disabled - target not provided.
+Test Suite started!
+I am in onStart method HubSpot HomePage Testing-Firefox
+Running on environment  ---> null
+browser name is : chrome
+login to the app with simr.saini7@gmail.com:!Saini006
+I am in onTestFailure method verifyLoginPageTitleTest failed
+Screenshot captured for test case:verifyLoginPageTitleTest
+verifyLoginPageTitleTest failed!
+I am in onTestFailure method verifyLoginPageTitleTest failed
+Screenshot captured for test case:verifyLoginPageTitleTest
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 38983
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 02, 2021 8:41:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLoginPageTitleTest" classname="com.qa.hubspot.tests.LoginPageTest" time="0.682">
+    <failure message="Expected condition failed: waiting for title to be &quot;HubSpot Login&quot;. Current title: &quot;Checking browser&quot; (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-FHVIN2VS&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SimTaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 466b4dbe29cc54dbb291d56e8e4c6bfa" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to be "HubSpot Login". Current title: "Checking browser" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FHVIN2VS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SimTaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 466b4dbe29cc54dbb291d56e8e4c6bfa
+	at com.qa.hubspot.tests.LoginPageTest.verifyLoginPageTitleTest(LoginPageTest.java:37)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method loginTest start
+loginTest started!
+I am in onTestStart method loginTest start
+login to the app with simr.saini7@gmail.com:!Saini006
+I am in onTestFailure method verifyLoginPageTitleTest failed
+Screenshot captured for test case:verifyLoginPageTitleTest
+verifyLoginPageTitleTest failed!
+I am in onTestFailure method verifyLoginPageTitleTest failed
+Screenshot captured for test case:verifyLoginPageTitleTest
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="com.qa.hubspot.tests.LoginPageTest" time="10.565">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.qa.hubspot.tests.LoginPageTest.loginTest(LoginPageTest.java:48)
+</failure>
+    <system-out><![CDATA[Test Suite is ending!
+I am in onFinish method HubSpot HomePage Testing-Firefox
+Tesults disabled - target not provided.
+Test Suite started!
+I am in onStart method HubSpot Feature Testing-ContactsPage
+Running on environment  ---> null
+browser name is : chrome
+login to the app with simr.saini7@gmail.com:!Saini006
+Element not found By.id: username
+I am in onTestFailure method loginTest failed
+Screenshot captured for test case:loginTest
+loginTest failed!
+Element not found By.id: username
+I am in onTestFailure method loginTest failed
+Screenshot captured for test case:loginTest
+I am in onTestFailure method loginTest failed
+Screenshot captured for test case:loginTest
+loginTest failed!
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 7145
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 02, 2021 8:41:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.qa.hubspot.tests.LoginPageTest" time="10.783">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.qa.hubspot.tests.LoginPageTest.loginTest(LoginPageTest.java:48)
+</failure>
+    <system-out><![CDATA[I am in onTestFailure method loginTest failed
+Screenshot captured for test case:loginTest
+]]></system-out>
+  </testcase>
+  <testcase name="ContactsPageSetup" classname="com.qa.hubspot.tests.ContactsPageTest" time="16.42">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.qa.hubspot.tests.ContactsPageTest.ContactsPageSetup(ContactsPageTest.java:30)
+</failure>
+    <system-out><![CDATA[I am in onFinish method HubSpot LoginPage Testing
+I am in onFinish method HubSpot LoginPage Testing-Firefox
+Test Suite is ending!
+I am in onFinish method HubSpot LoginPage Testing
+Test Suite is ending!
+I am in onFinish method HubSpot LoginPage Testing-Firefox
+Element not found By.id: username
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.hubspot.tests.ContactsPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[verifyContactsPageTitleTest skipped!
+verifyContactsPageTitleTest failed!
+]]></system-out>
+  </testcase>
+</testsuite>

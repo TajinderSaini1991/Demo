@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Demo Test Automation]">
+  <listeners>
+    <listener class-name="com.qa.hubspot.testlisteners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="3" verbose="2" name="LoginPage Testing- chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.qa.hubspot.tests.ContactsPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="createNewContactTest"/>
+          <include name="verifyContactsPageHeaderTest"/>
+          <include name="verifyContactsPageTitleTest"/>
+          <include name="deleteAllContacts"/>
+          <include name="ContactsPageSetup"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.ContactsPageTest -->
+      <class name="com.qa.hubspot.tests.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="homePageSetup"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageHeaderTest"/>
+          <include name="verifyHomePageTitleTest"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.HomePageTest -->
+    </classes>
+  </test> <!-- LoginPage Testing- chrome(failed) -->
+</suite> <!-- Failed suite [Demo Test Automation] -->

@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 9, Errors: 0, Skipped: 3, Time elapsed: 47.482 s <<< FAILURE! - in TestSuite
+verifySignUpLinkTest(com.qa.hubspot.tests.LoginPageTest)  Time elapsed: 10.686 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.hubspot.tests.LoginPageTest.verifySignUpLinkTest(LoginPageTest.java:29)
+
+homePageSetup(com.qa.hubspot.tests.HomePageTest)  Time elapsed: 0.683 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.hubspot.tests.HomePageTest.homePageSetup(HomePageTest.java:24)
+
+verifySignUpLinkTest(com.qa.hubspot.tests.LoginPageTest)  Time elapsed: 0.961 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.hubspot.tests.LoginPageTest.verifySignUpLinkTest(LoginPageTest.java:29)
+
+verifyLoginPageTitleTest(com.qa.hubspot.tests.LoginPageTest)  Time elapsed: 9.73 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to be "HubSpot Login". Current title: "Checking browser" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FHVIN2VS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SimTaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e16c8586a1699b0c951cc1d7b12291d2
+	at com.qa.hubspot.tests.LoginPageTest.verifyLoginPageTitleTest(LoginPageTest.java:37)
+
+verifyLoginPageTitleTest(com.qa.hubspot.tests.LoginPageTest)  Time elapsed: 0.682 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to be "HubSpot Login". Current title: "Checking browser" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FHVIN2VS', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\SimTaj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 466b4dbe29cc54dbb291d56e8e4c6bfa
+	at com.qa.hubspot.tests.LoginPageTest.verifyLoginPageTitleTest(LoginPageTest.java:37)
+
+homePageSetup(com.qa.hubspot.tests.HomePageTest)  Time elapsed: 3.787 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.hubspot.tests.HomePageTest.homePageSetup(HomePageTest.java:24)
+
+loginTest(com.qa.hubspot.tests.LoginPageTest)  Time elapsed: 10.565 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.hubspot.tests.LoginPageTest.loginTest(LoginPageTest.java:48)
+
+loginTest(com.qa.hubspot.tests.LoginPageTest)  Time elapsed: 10.783 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.hubspot.tests.LoginPageTest.loginTest(LoginPageTest.java:48)
+
+ContactsPageSetup(com.qa.hubspot.tests.ContactsPageTest)  Time elapsed: 16.42 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.hubspot.tests.ContactsPageTest.ContactsPageSetup(ContactsPageTest.java:30)
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Demo Test Automation" duration-ms="25993" started-at="2022-05-29T23:26:34Z" finished-at="2022-05-29T23:27:00Z">
+    <groups>
+    </groups>
+    <test name="LoginPage Testing- chrome" duration-ms="25993" started-at="2022-05-29T23:26:34Z" finished-at="2022-05-29T23:27:00Z">
+      <class name="com.qa.hubspot.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@a195a4]" name="setUp" is-config="true" duration-ms="3324" started-at="2022-05-29T23:26:34Z" finished-at="2022-05-29T23:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@a195a4]" name="verifySignUpLinkTest" duration-ms="1453" started-at="2022-05-29T23:26:37Z" finished-at="2022-05-29T23:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@a195a4]" name="verifyLoginPageTitleTest" duration-ms="27" started-at="2022-05-29T23:26:49Z" finished-at="2022-05-29T23:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@a195a4]" name="loginTest" duration-ms="259" started-at="2022-05-29T23:26:50Z" finished-at="2022-05-29T23:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@a195a4]" name="tearDown" is-config="true" duration-ms="662" started-at="2022-05-29T23:26:50Z" finished-at="2022-05-29T23:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
+      <class name="com.qa.hubspot.tests.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@1a3be26]" name="setUp" is-config="true" duration-ms="1857" started-at="2022-05-29T23:26:44Z" finished-at="2022-05-29T23:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ContactsPageSetup()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@1a3be26]" name="ContactsPageSetup" is-config="true" duration-ms="3473" started-at="2022-05-29T23:26:45Z" finished-at="2022-05-29T23:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactsPageSetup -->
+        <test-method status="PASS" signature="verifyContactsPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.ContactsPageTest@1a3be26]" name="verifyContactsPageTitleTest" duration-ms="29" started-at="2022-05-29T23:26:49Z" finished-at="2022-05-29T23:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageTitleTest -->
+        <test-method status="PASS" signature="verifyContactsPageHeaderTest()[pri:2, instance:com.qa.hubspot.tests.ContactsPageTest@1a3be26]" name="verifyContactsPageHeaderTest" duration-ms="34" started-at="2022-05-29T23:26:50Z" finished-at="2022-05-29T23:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageHeaderTest -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.hubspot.tests.ContactsPageTest@1a3be26]" name="createNewContactTest" duration-ms="2169" started-at="2022-05-29T23:26:52Z" data-provider="getTestData" finished-at="2022-05-29T23:26:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sonia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sharma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="deleteAllContacts()[pri:4, instance:com.qa.hubspot.tests.ContactsPageTest@1a3be26]" name="deleteAllContacts" duration-ms="5225" started-at="2022-05-29T23:26:54Z" finished-at="2022-05-29T23:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllContacts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@1a3be26]" name="tearDown" is-config="true" duration-ms="679" started-at="2022-05-29T23:26:59Z" finished-at="2022-05-29T23:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.tests.ContactsPageTest -->
+      <class name="com.qa.hubspot.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@304b46]" name="setUp" is-config="true" duration-ms="1739" started-at="2022-05-29T23:26:39Z" finished-at="2022-05-29T23:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageSetup()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@304b46]" name="homePageSetup" is-config="true" duration-ms="2104" started-at="2022-05-29T23:26:41Z" finished-at="2022-05-29T23:26:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageSetup -->
+        <test-method status="PASS" signature="verifyHomePageHeaderTest()[pri:1, instance:com.qa.hubspot.tests.HomePageTest@304b46]" name="verifyHomePageHeaderTest" duration-ms="990" started-at="2022-05-29T23:26:43Z" finished-at="2022-05-29T23:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeaderTest -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:2, instance:com.qa.hubspot.tests.HomePageTest@304b46]" name="verifyHomePageTitleTest" duration-ms="13" started-at="2022-05-29T23:26:49Z" finished-at="2022-05-29T23:26:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@304b46]" name="tearDown" is-config="true" duration-ms="747" started-at="2022-05-29T23:26:49Z" finished-at="2022-05-29T23:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.tests.HomePageTest -->
+    </test> <!-- LoginPage Testing- chrome -->
+  </suite> <!-- Demo Test Automation -->
+</testng-results>

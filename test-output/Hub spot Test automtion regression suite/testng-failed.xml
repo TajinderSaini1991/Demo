@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Hub spot Test automtion regression suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.hubspot.testlisteners.TestAllureListener"/>
+    <listener class-name="com.qa.hubspot.testlisteners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="3" verbose="2" name="HubSpot LoginPage Testing-Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.qa.hubspot.tests.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifySignUpLinkTest"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- HubSpot LoginPage Testing-Firefox(failed) -->
+</suite> <!-- Failed suite [Hub spot Test automtion regression suite] -->
